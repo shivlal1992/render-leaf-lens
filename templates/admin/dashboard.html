@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>Welcome, {{ username }}!</h1>
+    <form action="{{ url_for('adminlogout') }}" method="post">
+        <button type="submit" class="btn btn-danger">Logout</button>
+    </form>
+</body>
+</html>
